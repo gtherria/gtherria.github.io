@@ -17,7 +17,7 @@ section {
 }
 
 figure {
-    margin: 0;
+    margin: 1em;
 }
 
 figure.article{
@@ -32,6 +32,7 @@ img {
 
 h1{
     width:20em;
+    margin: 1em 0em 0em 0em;
 }
 ul {
     list-style-type: none;
@@ -47,12 +48,13 @@ nav.all ul {
 nav.all ul li{
     display: inline;
     list-style-type: none;
-    margin-right: 1.65em;
+    margin-right: 1.85em;
     font-family: fairplex-narrow, serif;
     font-style: normal;
     font-weight: 500;
     font-size: 1.2em;
     letter-spacing: 0.05em;
+  
    
 }
 
@@ -61,7 +63,7 @@ nav.all ul li a:hover {
 }
 
 nav.all ul li a{
-    color: #11142e;
+      color: #0b215d;;
     text-decoration: none;
      text-transform: uppercase;
 }
@@ -72,6 +74,7 @@ p {
     font-weight: 200;
     line-height: 125%;
     font-size: 1em;
+    margin: 1em;
 }
 
 figcaption{
@@ -127,13 +130,17 @@ div.gallery nav {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: .2em;
- 
 }
+div.gallery input{
+    opacity:0;
+}
+
 
 h3{
     font-family: fairplex-narrow, serif;
     font-style: normal;
     font-weight: 400;
+     margin: 1em;
     
 }
 
@@ -144,6 +151,7 @@ h2{
     font-weight: 700;
     font-size: 2em;
     color: #11142e;
+     margin: 1em;
 }
 
 a{
@@ -155,7 +163,7 @@ a h3{
     font-weight: 400;
     font-size: 1.8em;
     color: #0b215d;
-    margin: 1em 0em 0em 0em;
+    margin: 1em 0.5em 0em;
 
 }
 a p {
