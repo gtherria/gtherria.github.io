@@ -1,0 +1,71 @@
+/*CSS DOCUMENT */
+
+
+body {
+	background-color: #fafafa;
+	color: #333333;
+}
+
+div.container {
+	max-width: 40em;
+	margin: auto;
+}
+
+img {
+	width: 100%;
+}
+
+figure {
+	margin: 1em 0;
+}
+
+h1, h2, h3, h4, p, ul, ol, li {
+	margin: 0; 
+	padding:0; 
+}
+
+h1 {
+	font-size: 2em; 
+    font-family: "interstate", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    padding-top: 1em;
+}
+
+h2 {
+	font-size: 1.2em;
+    padding-bottom: .5em;
+    padding-top: 1em;
+    font-family: "interstate", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+h3 {
+	font-size: 1em; 
+    font-family: "interstate", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+p {
+    margin-bottom: .6em;
+    font-family: "urw-din", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+ul{
+    padding-left: 1em;
+    font-family: "urw-din", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+figcaption{
+    padding-left: 1em;
+    font-size: 1em;
+    font-family: "urw-din", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
